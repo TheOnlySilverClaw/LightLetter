@@ -16,7 +16,7 @@ public abstract class LightLetter {
 
 	protected final void checkBounds(int bytes) {
 		if(bytes > available()) {
-			throw new IndexOutOfBoundsException("Mising: " + (available() - bytes));
+			throw new IndexOutOfBoundsException("Missing: " + (available() - bytes));
 		}
 	}
 
