@@ -5,12 +5,11 @@
 LightLetter is intended to be used as a very basic serialization library.
 Basically, I tried to use MessagePack, which seems to be a great tool, but I thought
 "I do not need most of the features, like inter-language or JSON-compatibility,
-maybe I can do something siilar, with a more convenient API and more speed?".
+maybe I can do something similar, with a more convenient API and more speed?".
 So, the goals of LightLetter are:
 * be at east 10 times faster than comparable MessagePack methods
 * try to keep data size smaller or at least equal to MessagePack
 * be easy to use, with convenience methods for arrays, maps, and some other data structures
-* 
 
 ## Usage
 
