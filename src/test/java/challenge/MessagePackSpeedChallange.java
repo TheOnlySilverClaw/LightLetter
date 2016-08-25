@@ -59,7 +59,6 @@ public class MessagePackSpeedChallange {
 
 	@Test
 	public void writeIntsAsArrayLightLetter() {
-		// this is SLOWER? o.O
 		letter.write(ints);
 		
 	}
