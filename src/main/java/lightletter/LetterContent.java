@@ -66,7 +66,7 @@ public class LetterContent extends LightLetter {
 	public float readFloat() {
 		checkBounds(Float.BYTES);
 		float f = PrimitiveReadUtil.readFloat(data, marker);
-		advance(Integer.BYTES);
+		advance(Float.BYTES);
 		return f;
 	}
 
